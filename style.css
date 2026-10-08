@@ -482,3 +482,17 @@ body.dark-mode .project-card h3 {
         font-size: 1.8rem;
     }
 }
+/* Hero Image */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
